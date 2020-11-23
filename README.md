@@ -7,7 +7,8 @@
 
 ## 🧐 About
 
-Start your travel at an offordable price with Travelly. Travel in over 50 cities with one click.
+Start your travel at an offordable price with Travelly. Travel in over 50 cities with one click. <br>
+Check on https://artursantiago.github.io/travelly-website/
 
 ## :rocket: Stack
  - HTML

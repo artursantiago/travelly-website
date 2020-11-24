@@ -42,7 +42,7 @@ h4, h5 {
 
 button {
   padding: 2rem 6rem;
-  background: #27394e;
+  background: #3f5d80;
   border: none;
   color: white;
   font-size: 1.8rem;
@@ -51,9 +51,14 @@ button {
 }
 
 button:hover {
-  background: #35506e;
+  background: #25374b
 }
- 
+
+button:focus {
+  background: #18232f;
+  outline-style: solid;
+}
+  
 /** Nav Styles **/
 
 .main-head {
@@ -91,7 +96,7 @@ nav ul {
 /** Hero Section **/
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('img/landing-page.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent), url('img/landing-page.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -221,8 +226,10 @@ nav ul {
   margin: 2rem;
 }
 
-.card h4, .card p {
+.card h4, 
+.card p {
   padding: 1rem;
+  line-height: 1.8;
 }
 
 /* Contact Section */
